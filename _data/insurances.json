@@ -1,0 +1,32 @@
+[
+  {
+    "title": "VZP",
+    "image": {
+      "url": "images/pojistovny/pojistovna-vzp.jpg",
+    }
+  },
+  {
+    "title": "211",
+    "image": {
+      "url": "images/pojistovny/pojistovna-211.jpg",
+    }
+  },
+  {
+    "title": "CPZP",
+    "image": {
+      "url": "images/pojistovny/pojistovna-cpzp.jpg",
+    }
+  },
+  {
+    "title": "OZP",
+    "image": {
+      "url": "images/pojistovny/pojistovna-ozp.jpg",
+    }
+  },
+  {
+    "title": "VOZP",
+    "image": {
+      "url": "images/pojistovny/pojistovna-vozp.jpg",
+    }
+  },
+]
