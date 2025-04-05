@@ -70,3 +70,51 @@ bodyClass: "page-home"
   </div>
 </div>
 {% endif %}
+
+<h1>Máme smlouvy s pojišťovnami</h1>
+{% if site.data.insurances %}
+<div class="strip strip">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for insurance in site.data.insurances %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if insurance.image %}
+          <div class="insurance-image"><img alt="{{ insuramce.title }} logo" src="{{ insurance.image.url | relative_url }}" width="{{ insurance.image.width }}" height="{{ insuramce.image.height }}" /></div>
+          {% endif %}
+          <h2 class="insurance-title">{{ insurance.title }}</h2>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<h1>Příjemné a moderní prostředí</h1>
+<div class="strip=grey">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/ordinace/ordinace1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/ordinace/ordinace2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
