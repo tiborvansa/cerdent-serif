@@ -1,14 +1,17 @@
 main:
-  - name: "Services"
+  - name: "Domů"
+    url: "/"
+    weight: 1
+  - name: "Služby"
     url: "/services/"
     weight: 2
-  - name: "Team"
+  - name: "O nás"
     url: "/team/"
     weight: 3
-  - name: "About"
-    url: "/about/"
+  - name: "Ceník"
+    url: "/prices/"
     weight: 4
-  - name: "Contact"
+  - name: "Kontakt"
     url: "/contact/"
     weight: 5
 
