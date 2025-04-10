@@ -6,7 +6,7 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">        
         {{ content }}
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
@@ -71,49 +71,62 @@ bodyClass: "page-home"
 </div>
 {% endif %}
 
-<h1>Máme smlouvy s pojišťovnami</h1>
+
 {% if site.data.insurances %}
 <div class="strip strip">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
+  <div class="container pt-2 pb-2 pt-md-4 pb-md-4">
+    <h1 class="text-center">Máme smlouvy s pojišťovnami</h1>
+    <div class="row justify-content-center align-items-center">
       {% for insurance in site.data.insurances %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
+      <div class="col-6 col-md-2 mb-2">
+        <div class="insurance-logo">
           {% if insurance.image %}
-          <div class="insurance-image"><img alt="{{ insuramce.title }} logo" src="{{ insurance.image.url | relative_url }}" width="{{ insurance.image.width }}" height="{{ insuramce.image.height }}" /></div>
+          <div class="insurance-image">
+            <img alt="{{ insurance.title }} logo" 
+                 src="{{ insurance.image.url | relative_url }}" 
+                 class="img-fluid insurance-logo-img" />
+          </div>
           {% endif %}
-          <h2 class="insurance-title">{{ insurance.title }}</h2>
         </div>
       </div>
       {% endfor %}
-
     </div>
   </div>
 </div>
 {% endif %}
 
-<h1>Příjemné a moderní prostředí</h1>
-<div class="strip=grey">
+<div class="strip-grey">
   <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/ordinace/ordinace1.jpg" class="d-block w-100" alt="...">
+    <div class="row office-presentation">
+      <div class="col-12 col-lg-6 order-2 order-lg-1">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-image-container">
+                <img src="images/ordinace/ordinace1.jpg" class="carousel-image" alt="Ordinace 1">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-image-container">
+                <img src="images/ordinace/ordinace2.jpg" class="carousel-image" alt="Ordinace 2">
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="images/ordinace/ordinace2.jpg" class="d-block w-100" alt="...">
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </div>
+      <div class="col-12 col-lg-6 order-1 order-lg-2">
+        <div class="office-description">
+          <h1>Příjemné a moderní prostředí</h1>
+          <p>Text about the office and the staff. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
       </div>
     </div>
   </div>

@@ -2,31 +2,31 @@
   {
     "title": "VZP",
     "image": {
-      "url": "images/pojistovny/pojistovna-vzp.jpg",
+      "url": "images/pojistovny/pojistovna-vzp.png",
     }
   },
   {
     "title": "211",
     "image": {
-      "url": "images/pojistovny/pojistovna-211.jpg",
+      "url": "images/pojistovny/pojistovna-211.png",
     }
   },
   {
     "title": "CPZP",
     "image": {
-      "url": "images/pojistovny/pojistovna-cpzp.jpg",
+      "url": "images/pojistovny/pojistovna-cpzp.png",
     }
   },
   {
     "title": "OZP",
     "image": {
-      "url": "images/pojistovny/pojistovna-ozp.jpg",
+      "url": "images/pojistovny/pojistovna-ozp.png",
     }
   },
   {
     "title": "VOZP",
     "image": {
-      "url": "images/pojistovny/pojistovna-vozp.jpg",
+      "url": "images/pojistovny/pojistovna-vozp.png",
     }
   },
 ]
