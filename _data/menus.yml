@@ -5,7 +5,7 @@ main:
   - name: "Služby"
     url: "/services/"
     weight: 2
-  - name: "O nás"
+  - name: "Náš tým"
     url: "/team/"
     weight: 3
   - name: "Ceník"
