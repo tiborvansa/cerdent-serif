@@ -1,7 +1,7 @@
 ---
-title: Jekyll Serif Theme
+title: Cerdent
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Zubní ordinace Cerdent doktorky Hany Vansové
 intro_image: "images/illustrations/home_page_photo.jpg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
