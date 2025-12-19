@@ -1,25 +1,21 @@
 <div class="call">
+  {% if page.new_patients %}
+    <div class="new-patients">Příjmáme nové pacienty!</div>
+  {% endif %}
   <div class="call-box-top">
     {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Tel: </strong> {{ site.data.contact.phone }} </div>
-    {% endif %}
-    {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:{{ .site.data.contact.email }}">
-        {{ site.data.contact.email }}
-      </a>
-    </div>
-    {% endif %}
-    <div class="call-phone">
-      <br>
-      <strong>Jsme tu pro Vás: </strong><br>
-      Po-Čt: 7:00- 16:00 <br>
-      Pá: 7:00- 13:00 <br>
-    </div>  
-  </div>
-    {% if include.show_button %}
-      <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Objednat se</a>
+      <div class="call-phone">
+        <i class="fas fa-phone-alt"></i>
+        <a href="tel:{{ site.data.contact.phone | remove: ' ' }}" class="phone-number">
+          {{ site.data.contact.phone }}
+        </a>
       </div>
     {% endif %}
+  </div>
+  <div class="call-box-bottom">
+    <script type="text/javascript" src="https://www.xdent.cz/js/booking.js">
+    </script>
+    <script type="text/javascript">CreateBookNowButton('cerdent','Large');
+    </script>
+  </div>
 </div>

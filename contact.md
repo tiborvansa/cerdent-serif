@@ -1,16 +1,21 @@
 ---
-title: Contact
+title: Kontakt
 layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+### Otvírací doba
 
-| Day       | Opening Hours   |
+|           | Otvírací hodiny   |
 | --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+| Pondělí   | 8:30 - 5:00 |
+| Úterý     | 8:30 - 5:00 |
+| Středa    | 8:30 - 5:00 |
+| Čvrtek    | 8:30 - 5:00 |
+| Pátek     | 10:00 - 4:00  |
+
+### Sídlíme na adrese:
+Cerdent s.r.o. \
+Matějovského 1650/9 \
+Radotín \
+153 00
