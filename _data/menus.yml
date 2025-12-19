@@ -16,9 +16,9 @@ main:
     weight: 5
 
 footer:
-  - name: "Home"
+  - name: "Domů"
     url: "/"
     weight: 1
-  - name: "Contact"
+  - name: "Kontakt"
     url: "/contact/"
     weight: 2
