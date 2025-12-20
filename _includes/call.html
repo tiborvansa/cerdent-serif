@@ -13,9 +13,8 @@
     {% endif %}
   </div>
   <div class="call-box-bottom">
-    <script type="text/javascript" src="https://www.xdent.cz/js/booking.js">
-    </script>
-    <script type="text/javascript">CreateBookNowButton('cerdent','Large');
-    </script>
+    {% if site.xdent_online %}
+      {% include xdent.html %}
+    {% endif %}  
   </div>
 </div>

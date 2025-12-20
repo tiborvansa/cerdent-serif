@@ -2,6 +2,8 @@ baseurl: '/cerdent'
 permalink: pretty
 title: 'CerDent - MDDr. Hana Vansová'
 
+xdent_online: true
+
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
@@ -49,3 +51,5 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+
