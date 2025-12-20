@@ -2,11 +2,13 @@
   .team-summary {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column; // Stack children vertically
+    align-items: center; // Center align content
+    text-align: center; // Center text
     .team-image {
       height: 160px;
       width: 160px;
-      margin-right: 10px;
+      margin-bottom: 10px; // Add spacing below the image
       border-radius: 50%;
       overflow: hidden;
       img {
@@ -14,7 +16,7 @@
       }
     }
     .team-meta {
-      flex: 1;
+      flex: none; // Prevent stretching
       h2 {
         margin: 0;
         font-size: 22px;
@@ -38,10 +40,14 @@
     background-color: $white-offset;
     padding: 30px;
     border-radius: 3px;
+    display: flex;
+    flex-direction: column; // Stack children vertically
+    align-items: center; // Center align content
+    text-align: center; // Center text
     .team-image {
       height: 180px;
       width: 180px;
-      margin-right: 20px;
+      margin-bottom: 20px; // Add spacing below the image
       border-radius: 50%;
       overflow: hidden;
       img {
