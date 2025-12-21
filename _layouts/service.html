@@ -8,7 +8,20 @@ bodyClass: "page-service"
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">{{page.title}}</h1>
-        <div class="content">{{content}}</div>
+        <div class="content text-body">{{content}}
+        
+        {% assign category_prices = site.data.prices | where: "category", page.title %}
+        {% if category_prices.size > 0 %}
+          <div class="prices mt-4">
+            <ul class="list-unstyled">
+              {% for item in category_prices %}
+                <li class="mb-2"><strong>{{ item.action }}</strong>: {{ item.price }} Kč</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+        <h3 class="subtitle"><a href="/cerdent/prices" class="subtitle">Kompletní ceník</a></h3>
+      </div>
       </div>
     </div>
   </div>

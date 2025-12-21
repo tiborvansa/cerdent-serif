@@ -7,6 +7,8 @@ bodyClass: page-about
 
 Cenový přehled hlavních výkonů. 
 
+
+
 {% assign grouped_prices = site.data.prices | group_by: "category" %}
 {% for group in grouped_prices %}
 <h2>{{ group.name }}</h2>
