@@ -7,7 +7,14 @@ bodyClass: page-about
 
 Cenový přehled hlavních výkonů. 
 
-| Zákrok | Cena   |
-| ----------- | --------- |
-| Korunka    | 1000 |
-| Lepší korunka          | 2000         |
+{% assign grouped_prices = site.data.prices | group_by: "category" %}
+{% for group in grouped_prices %}
+<h2>{{ group.name }}</h2>
+<ul>
+  {% for item in group.items %}
+  <li>{{ item.action }}: {{ item.price }} Kč</li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+
