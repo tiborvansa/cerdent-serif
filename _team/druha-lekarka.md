@@ -1,5 +1,5 @@
 ---
-title: "MDDr. Blanka Jansová"
+title: "MUDr. Blanka Jansová"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/druha_lekarka.jpg"
 jobtitle: "Zubní lékařka"
