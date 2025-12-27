@@ -1,15 +1,65 @@
 category,action,price
-Akutní péče,Akutní vyšetření,800
-Akutní péče,Ošetření bolesti,1200
-Bělení zubů,Bělení v ordinaci,5000
-Bělení zubů,Domácí bělicí sada,3000
-Bílé výplně,Malá kompozitní výplň,1500
-Bílé výplně,Velká kompozitní výplň,2500
-Dentální hygiena,Základní dentální hygiena,1200
-Dentální hygiena,Pokročilé čištění,1800
-Ošetření kanálků,Ošetření jednoho kořenového kanálku,2500
-Ošetření kanálků,Ošetření více kořenových kanálků,4000
-Korunky a můstky,Porcelánová korunka,6000
-Korunky a můstky,Můstek (za zub),5000
-Preventivní péče,Pravidelná prohlídka,500
-Preventivní péče,Fluoridová léčba,800
+Výplně                                                 ,Fotokompozitní vrstvená 1 ploška,1000
+Výplně                                                 ,Fotokompozitní vrstvená 2 plošky,1900
+Výplně                                                 ,Fotokompozitní vrstvená  3 plošky,2600
+Výplně                                                 ,Ošetření dočasného zubu pomocí SDF,600
+Výplně                                                 ,Gingivektomie,300
+Endodoncie,Preendodontická dostavba,1200
+Endodoncie,"1 kanálek- strojové rozšíření, výplach, dezifekční vložka, provizorní výplň",1800
+Endodoncie,"každý další kanálek- strojové rozšíření, výplach, dezinfekční vložka",700
+Endodoncie,1 kanálek- plnění metodou vertikální kondenzace (řezáky- premoláry),900
+Endodoncie,každý další kanálek plněný metodou vertikální kondenzace (řezáky- premoláry),300
+Endodoncie,1 kanálek- plnění metodou vertikální kondenzace (moláry),1600
+Endodoncie,"Reendodoncie- odstranění kořenové výplně z 1 kanálku, výplach, dezinfekční vložka",2000
+Endodoncie,Reendodoncie- odstranění kořenové výplně z dalšího kanálku,750
+Endodoncie,Reendodoncie- plnění 1 kanálku metodou vertikální kondenzace,2200
+Endodoncie,Reendodoncie- plnění dalšího kanálku metodou vertikální kondenzace,1600
+Endodoncie,Postendodontická dostavba CORE BUILD UP s čepem,3000
+Endodoncie,"Postendodontická dostavba zubu bez čepu- Rebilda, provizorně GIC",1200
+Protetika,"korunka keramická vrstvená, probarvená",11000
+Protetika,korunka keramická anatomická,9800
+Protetika,korunka metalokeramická,9200
+Protetika,korunka plášťová z kompozitního plastu,4900
+Protetika,člen můstku keramický,9500
+Protetika,člen můstku metalokeramický,7000
+Protetika,"člen můstku fasetovaný, kompozitní",6500
+Protetika,člen můstku celokovový- pilíř,4000
+Protetika,mezičlen můstku celokovový,2000
+Protetika,overlay/ onlay keramická,8000
+Protetika,overlay/ onlay kompozitní,7000
+Protetika,"litá  kořenová nástavba, jeden kanálek",3000
+Protetika,"litá kořenová nástavba, dva kanálky",3300
+Protetika,"litá kořenová nástavba, dva kanálky, dělená",3600
+Protetika,provizorní ochranná korunka razidlovou metodou,950
+Protetika,provizorní razidlový můstek (malý),1400
+Protetika,provizorní korunka - lab.,1200
+Protetika,provizorní můstek do 4 zubů,2400
+Protetika,provizorní můstek od 5 zubů,3400
+Protetika,provizorní frézovaný můstek do 4 zubů,4600
+Protetika,provizorní frézovaný můstek od 5 zubů,6600
+Protetika,Sejmutí fixní protetické práce- člen,600
+Protetika,Fixace spadlé protetické práce,950
+Snímatelná protetika,Transparentní patro,1000
+Snímatelná protetika,Výztuž do náhrady,1100
+Snímatelná protetika,Častečná snímatelná náhrada horní- skeletová 2 kotevní prvky,12000
+Snímatelná protetika,Častečná snímatelná náhrada horní- skeletová 3 a více kotevní prvků,12500
+Snímatelná protetika,ČSN dolní - skeletová 2 kotevní prvky,12000
+Snímatelná protetika,ČSN dolní- skeletová 3 a více kotevních prvků,12500
+Snímatelná protetika,Provizorní (imediátní) celková náhrada,9600
+Snímatelná protetika,Provizorní (imediátní) částečná snímatelná náhrada- do 4 zubů,5500
+Snímatelná protetika,Provizorní (imediátní) částečná snímatelná náhrada- 5 a více zubů,6500
+Snímatelná protetika,Provizorní (imediátní) částečná snímatelná náhrada - 10 a více zubů,7000
+Snímatelná protetika,Oprava prasklé nebo zlomené snímatelné náhrady,1000
+Snímatelná protetika,Oprava zubu vypadlého z náhrady,1000
+Snímatelná protetika,Oprava retenčních prvků náhrady - do 2 prvků,1200
+Snímatelná protetika,Rozšíření baze náhrady do 2 zubů a 2 retenčních prvků,1600
+Snímatelná protetika,Další rozšíření či oprava o zub či retenční prvek,300
+Snímatelná protetika,Rebaze náhrady ČSN,3000
+Snímatelná protetika,Rebaze celkové náhrady,3000
+Snímatelná protetika,Ochranná dlaha proti bruxismu,2400
+Snímatelná protetika,Chránič zubů pro sportovce,2700
+Hygiena,Konzultace neregistovaný pac.,1200
+Hygiena,Vstupní dentální hygiena,1900
+Hygiena,opakovaná dentální hygiena,1800
+Hygiena,dentální hygiena - děti 30 min,900
+Hygiena,instruktáž hygieny pro děti,600
