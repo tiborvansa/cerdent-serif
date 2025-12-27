@@ -1,12 +1,15 @@
 ---
 title: "Bělení zubů"
 date: 2019-06-18T12:33:46+10:00
-weight: 6
+icon: "/images/icons/beleni.jpg"
+show: true
+weight: 4
+short_description: "Nabízíme kvalitní ordinační bělení zubů lasrem SuperSmile"
 ---
 
 Nabízíme kvalitní ordinační bělení zubů lasrem SuperSmile
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+![Accounting Services](/images/illustrations/beleni.jpg)
 
 # Co zahrnuje profesionální bělení?
 

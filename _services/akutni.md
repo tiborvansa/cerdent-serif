@@ -1,14 +1,15 @@
 ---
 title: "Akutní ošetření"
 date: 2018-11-18T12:33:46+10:00
-weight: 1
+icon: "/images/icons/akutni.jpg"
+show: false
+weight: 9
+short_description: "Každý den držíme volnou kapacitu pro akutní případy, které můžeme ošetřit ještě dnes, nebo následující den. "
 ---
 
 Každý den držíme volnou kapacitu pro akutní případy, které můžeme ošetřit ještě dnes, nebo následující den. 
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
-
-# Objectives
+![Accounting Services](/images/illustrations/akutni.jpg)
 
 # Náhlé bolesti zubů? Jsme tu pro vás!
 

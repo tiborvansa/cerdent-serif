@@ -18,19 +18,19 @@ bodyClass: "page-services"
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
-  <div class="row">
-    {% for service in site.services %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+{% assign visible_services = site.services | where_exp: "s", "s.show == true" %}
+{% for service in visible_services %}
+  <section id="{{ service.slug | default: service.title | slugify }}">
+    <div class="container  ">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8">
+        <div class="service service-single">
+          <h1 class="title">{{service.title}}</h1>
+          <div class="content text-body">{{service.content}}
+        </div>
         </div>
       </div>
     </div>
-    {% endfor %}
   </div>
-</div>
+  </section>
+{% endfor %}

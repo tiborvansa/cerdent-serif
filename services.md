@@ -7,6 +7,6 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+# Naše služby
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Stomatologie je nádherný, rychle se rozvíjející obor. Stále se vzděláváme a snažíme se zdokonalovat v tom, co nás baví, a co je nám nejbližší. Pro výkony, které v naší ordinaci neprovádíme, Vám rádi doporučíme osvědčené specialisty.

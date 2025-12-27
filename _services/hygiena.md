@@ -1,12 +1,15 @@
 ---
 title: "Dentální hygiena"
 date: 2019-04-18T12:33:46+10:00
+show: true
+icon: "images/hygiene.jpg"
+short_description: "Dentální hygiena je klíčová pro prevenci a udržení zdravých zubů." 
 weight: 2
 ---
 
 Dentální hygiena je klíčová pro prevenci a udržení zdravých zubů. Pravidelná péče zajistí váš úsměv bez kazů a zánětů.
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+![Accounting Services](/images/illustrations/hygiena.jpg)
 
 # Profesionální péče o váš úsměv
 
