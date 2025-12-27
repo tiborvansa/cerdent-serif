@@ -15,10 +15,16 @@ bodyClass: "page-teams"
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name">{{ team.title }}</h2>
+                    <h2 class="team-name">
+                    {% if team.show_url %}
+                    <a href="{{ team.url | relative_url }}">{{ team.title }}</a>
+                    {% else %}
+                    {{ team.title }}
+                    {% endif %}
+                    </h2>
                     <p class="team-description">{{ team.jobtitle }}</p>                  
                 </div>
-                <div class="team-content">{{ team.excerpt | truncate: 120 }}</div>
+                <div class="team-content">{{ team.popisek | truncate: 120 }}</div>
             </div>
         </div>
         {% endfor %}

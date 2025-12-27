@@ -5,6 +5,6 @@ image: "images/team/hana-vansova.png"
 jobtitle: "Vedoucí zubní lékařka"
 promoted: true
 weight: 1
+popisek: "Zubní lékařka se zaměřením na záchovnou a dětskou stomatologii."
 ---
 
-Zubní lékařka se zaměřením na záchovnou a dětskou stomatologii.
