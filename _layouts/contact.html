@@ -4,30 +4,47 @@ layout: default
 bodyClass: "page-contact"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
-            <div class="service service-single">
-                <h1 class="title">{{page.title}}</h1>
-                {% if site.xdent_online %}
-                    {% include xdent.html %}
-                {% endif %}        
-                {% if site.data.contact.phone %}
-                    <div class="call-phone">
-                        <i class="fas fa-phone-alt"></i>
-                        <a href="tel:{{ site.data.contact.phone | remove: ' ' }}" class="phone-number">
-                        {{ site.data.contact.phone }}
-                        </a>
-                    </div>
-                {% endif %}
-                <div class="call-email"><strong>Email: </strong>
-                    <a href="mailto:{{ site.data.contact.email }}">
-                      {{ site.data.contact.email }}
-                    </a>
-                </div>
-                <div class="content mt-4">{{content}}</div>
-                <iframe style="border:none" src="https://mapy.com/s/nejagavema" width="400" height="280" frameborder="0"></iframe>
+<div class="strip-grey">
+<div class="container pb-3 pt-3 pt-md-5 pb-md-5">
+    <div class="row justify-content-center mb-2">
+        <div class="col-12 text-center">
+            {% if site.xdent_online %}
+                <div class="mb-3">{% include xdent.html %}</div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center g-2">
+        <div class="col-12 col-md-6 mb-2 mb-md-0 d-flex justify-content-center">
+            <div style="font-size:1.7rem; font-weight:bold; word-break:break-all; text-align:center; width:100%;">
+                <i class="fas fa-envelope" aria-hidden="true" style="margin-right:8px;"></i>
+                <a href="mailto:{{ site.data.contact.email }}" style="color:inherit; text-decoration:none;">{{ site.data.contact.email }}</a>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+            <div style="font-size:1.7rem; font-weight:bold; text-align:center; width:100%;">
+                <i class="fas fa-phone-alt" aria-hidden="true" style="margin-right:8px;"></i>
+                <a href="tel:{{ site.data.contact.phone | remove: ' ' }}" style="color:inherit; text-decoration:none;">
+                    {{ site.data.contact.phone }}
+                </a>
             </div>
         </div>
     </div>
+    <div class="row mt-3">
+        <div class="col-12">
+            <div class="content">{{content}}</div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="strip-grey">
+  <div class="container pt-2 pb-2 pt-md-4 pb-md-4">
+    {% include adress.html %}
+  </div>
+</div>
+
+<div class="strip strip-grey" id="ordinacni-hodiny">
+<div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    {% include ordinacni_hodiny.html %}
+</div>
 </div>
