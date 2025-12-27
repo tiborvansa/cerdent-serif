@@ -6,14 +6,30 @@
           {% if site.xdent_online %}
             {% include xdent.html %}
           {% endif %}
-          <ul>
-            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-            {% for item in footermenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+          <ul class="footer-contact d-flex flex-wrap align-items-center justify-content-center" style="list-style:none; padding-left:0; margin-bottom:0;">
+            <!-- Desktop: phone and email -->
+            <li class="d-none d-md-inline d-inline-flex align-items-center me-4">
+              <i class="fas fa-phone-alt" aria-hidden="true" class="me-1"></i>
+              <a href="tel:{{ site.data.contact.phone | remove: ' ' }}" class="text-white text-decoration-none">{{ site.data.contact.phone }}</a>
             </li>
-            {% endfor %}
+            <li class="d-none d-md-inline d-inline-flex align-items-center">
+              <i class="fas fa-envelope" aria-hidden="true" class="me-1"></i>
+              <a href="mailto:{{ site.data.contact.email }}" class="text-white text-decoration-none">{{ site.data.contact.email }}</a>
+            </li>
+            <!-- Mobile: only phone -->
+            <li class="d-inline d-md-none d-inline-flex align-items-center">
+              <i class="fas fa-phone-alt" aria-hidden="true" class="me-1"></i>
+              <a href="tel:{{ site.data.contact.phone | remove: ' ' }}" class="text-white text-decoration-none">{{ site.data.contact.phone }}</a>
+            </li>
           </ul>
+          <ul>
+          {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+          {% for item in footermenu %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+          </li>
+          {% endfor %}
+          </ul> 
         </div>
       </div>
     </div>
