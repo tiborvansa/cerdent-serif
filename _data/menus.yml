@@ -11,9 +11,12 @@ main:
   - name: "Ceník"
     url: "/prices/"
     weight: 4
+  - name: "Ordinační hodiny"
+    url: "/#ordinacni-hodiny"
+    weight: 5
   - name: "Kontakt"
     url: "/contact/"
-    weight: 5
+    weight: 6
 
 footer:
   - name: "Domů"

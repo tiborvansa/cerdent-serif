@@ -1,0 +1,41 @@
+lekari:
+  - jmeno: MDDr. Hana Vansová
+    ordinacni_hodiny:
+      pondeli: 
+        - "8:00 - 14:00"
+        - null
+      utery:
+        - null  
+        - "14:00 - 18:00"
+      streda:
+        - "8:00 - 12:00"
+        - "13:00 - 16:00"
+      ctvrtek: 
+        - "8:00 - 14:00"
+        - null
+      patek: 
+        - "8:00 - 14:00"
+        - null
+  - jmeno: MUDr. Blanka Jansová
+    ordinacni_hodiny:
+      pondeli: null
+      utery: 
+        - null
+        - "12:30 - 18:00"
+      streda: 
+        - "8:00 - 14:00"
+        - null
+      ctvrtek: null
+      patek: null
+
+hygienistky:
+  - jmeno: Blanka Jansová
+    ordinacni_hodiny:
+      pondeli: 
+        - "8:00 - 14:00"
+        - null
+      utery: null
+      streda: null
+      ctvrtek: null
+      patek: null
+ 

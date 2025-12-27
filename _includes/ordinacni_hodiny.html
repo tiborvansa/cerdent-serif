@@ -1,0 +1,103 @@
+ <h2 class="text-center mb-4">Ordinační hodiny</h2>
+    <div class="row">
+      {% for lekar in site.data.ordinacni_hodiny.lekari %}
+      <div class="col-12 col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h4 class="card-title">{{ lekar.jmeno }}</h4>
+            <table class="table table-sm">
+              <thead>
+                <tr>
+                  <th style="width: 90px;"></th>
+                  <th>Dopoledne</th>
+                  <th>Odpoledne</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign dny = "pondeli|utery|streda|ctvrtek|patek" | split: "|" %}
+                {% for den in dny %}
+                  <tr>
+                    <th style="width: 90px;">
+                      {% case den %}
+                      {% when 'pondeli' %}Pondělí
+                      {% when 'utery' %}Úterý
+                      {% when 'streda' %}Středa
+                      {% when 'ctvrtek' %}Čtvrtek
+                      {% when 'patek' %}Pátek
+                      {% endcase %}
+                    </th>
+                    {% assign hodiny = lekar.ordinacni_hodiny[den] %}
+                    {% if hodiny %}
+                      {% if hodiny.size and hodiny.size == 2 %}
+                        {% if hodiny[0] and hodiny[1] %}
+                          <td>{{ hodiny[0] }}</td>
+                          <td>{{ hodiny[1] }}</td>
+                        {% elsif hodiny[0] and hodiny[1] == nil %}
+                          <td>{{ hodiny[0] }}</td>
+                          <td></td>
+                        {% elsif hodiny[0] == nil and hodiny[1] %}
+                          <td></td>
+                          <td>{{ hodiny[1] }}</td>
+                        {% else %}
+                          <td colspan="2">&mdash;</td>
+                        {% endif %}
+                      {% else %}
+                        <td colspan="2">{{ hodiny }}</td>
+                      {% endif %}
+                    {% else %}
+                      <td colspan="2"></td>
+                    {% endif %}
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      {% for hygienistka in site.data.ordinacni_hodiny.hygienistky %}
+      <div class="col-12 col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h4 class="card-title">{{ hygienistka.jmeno }} (hygienistka)</h4>
+            <table class="table table-sm">
+              <thead>
+                <tr>
+                  <th style="width: 90px;"></th>
+                  <th>Dopoledne</th>
+                  <th>Odpoledne</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign dny = "pondeli|utery|streda|ctvrtek|patek" | split: "|" %}
+                {% for den in dny %}
+                  <tr>
+                    <th style="width: 90px;">
+                      {% case den %}
+                      {% when 'pondeli' %}Pondělí
+                      {% when 'utery' %}Úterý
+                      {% when 'streda' %}Středa
+                      {% when 'ctvrtek' %}Čtvrtek
+                      {% when 'patek' %}Pátek
+                      {% endcase %}
+                    </th>
+                    {% assign hodiny = hygienistka.ordinacni_hodiny[den] %}
+                    {% if hodiny %}
+                      {% if hodiny.size and hodiny.first %}
+                        <td>{{ hodiny[0] }}</td>
+                        <td>{{ hodiny[1] }}</td>
+                      {% else %}
+                        <td colspan="2">{{ hodiny }}</td>
+                      {% endif %}
+                    {% else %}
+                      <td colspan="2"></td>
+                    {% endif %}
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
