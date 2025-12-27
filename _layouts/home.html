@@ -31,11 +31,10 @@ bodyClass: "page-home"
       {% for service in visible_services limit: limit %}
       <div class="col-12 col-md-6 col-lg-6 mb-2">
         <div class="feature">
-          {% if service.image %}
-          <div class="feature-image"><img alt="{{ service.title }} logo" src="{{ service.image.url | relative_url }}" width="80" height="80" /></div>
+          {% if service.icon %}
+          <div class="feature-image"><img alt="{{ service.title }} logo" src="{{ service.icon | relative_url }}" width="120" height="120" /></div>
           {% endif %}
           <h2 class="feature-title">{{ service.title }}</h2>
-          {{service.show }}
           <div class="feature-content">{{ service.short_description }}</div>
         </div>
       </div>
@@ -100,9 +99,38 @@ bodyClass: "page-home"
       <div class="col-12 col-lg-6 order-1 order-lg-2">
         <div class="office-description">
           <h1>Příjemné a moderní prostředí</h1>
-          <p>Text about the office and the staff. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Přátelské prostředí, kde společně zvládneme kompletní vyšetření a ošetření Vašich zubů.
+S úctou, empatií a moderními postupy zajišťujeme, aby každá návštěva byla co nejpříjemnější a bezpečná.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<div class="strip strip">
+  <div class="container pt-2 pb-2 pt-md-4 pb-md-4">
+    <img src="images/ordinace/ordinace_team.jpg" alt="Ordinace 2">
+    <div class="col-12 col-lg-6 order-1 order-lg-2">
+        <div class="office-description">
+          <h1>Dobří lidé jsou základ</h1>
+          <p>Jsme přesvědčeni, že právě lidé, kteří tvoří náš tým, jsou klíčovým prvkem naší úspěšnosti a výjimečné kvality našich poskytovaných služeb.              
+          </p>
+        </div>
+      </div>
+  </div>
+</div>  
+
+
+<div class="strip grey">
+  <div class="container pt-2 pb-2 pt-md-4 pb-md-4">
+    <div class="col-12 col-lg-6 order-1 order-lg-2">
+        <div class="office-description">
+          <h1>Kde nás najdete</h1>
+          <p>Nacházíme se vedle nádraží Prah-Radotín, s dobrým spojením MHD i autem. 
+            Pro parkování mužete využít P+R parkoviště u nádraží. 
+          </p>
+          <iframe style="border:none" src="https://mapy.com/s/nejagavema" width="400" height="280" frameborder="0"></iframe>
+        </div>
+      </div>
+  </div>
+</div>  

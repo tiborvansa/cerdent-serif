@@ -2,7 +2,7 @@
 title: "Dentální hygiena"
 date: 2019-04-18T12:33:46+10:00
 show: true
-icon: "images/hygiene.jpg"
+icon: "images/icons/hygiena_icon.jpg"
 short_description: "Dentální hygiena je klíčová pro prevenci a udržení zdravých zubů." 
 weight: 2
 ---

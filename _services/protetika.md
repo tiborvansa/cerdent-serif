@@ -1,7 +1,7 @@
 ---
 title: "Korunky a můstky"
 date: 2019-02-28T15:15:34+10:00
-icon: "/images/icons/protetika.jpg"
+icon: "/images/icons/protetika_icon.jpg"
 show: true
 weight: 3
 short_description: "Specializujeme se na bezbolestné obnovení chrupu pomocí korunek a můstků."
