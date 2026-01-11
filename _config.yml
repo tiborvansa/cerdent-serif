@@ -2,7 +2,8 @@ baseurl: '/cerdent'
 permalink: pretty
 title: 'CerDent - MDDr. Hana Vansová'
 
-xdent_online: true
+xdent_online: false
+new_patients: false
 
 logo:
   mobile: "images/logo/logo-mobile.png"
