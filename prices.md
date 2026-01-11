@@ -23,3 +23,25 @@ Cenový přehled hlavních výkonů.
 {% endfor %}
 
 
+{% if site.data.insurances %}
+<div class="strip strip">
+  <div class="container pt-2 pb-2 pt-md-4 pb-md-4">
+    <h1 class="text-center">Máme smlouvy s pojišťovnami</h1>
+    <div class="row justify-content-center align-items-center">
+      {% for insurance in site.data.insurances %}
+      <div class="col-6 col-md-2 mb-2">
+        <div class="insurance-logo">
+          {% if insurance.image %}
+          <div class="insurance-image">
+            <img alt="{{ insurance.title }} logo" 
+                 src="{{ insurance.image.url | relative_url }}" 
+                 class="img-fluid insurance-logo-img" />
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}

@@ -31,7 +31,7 @@
   .call-box-top {
     width: 100%;
     flex: 1 0 auto;
-    padding: 20px 0;
+    padding: 5px 0;
     text-align: center;
     @include media-breakpoint-up(md) {
     }
@@ -63,7 +63,7 @@
   .call-box-bottom {
     width: 100%;
     flex: 0 0 auto;
-    padding: 20px;
+    padding: 5px;
     border-top: 1px solid darken($white-offset, 5%);
     text-align: center;
     display: flex;
