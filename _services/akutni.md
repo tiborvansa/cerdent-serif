@@ -1,10 +1,9 @@
 ---
 title: "Akutní ošetření"
-date: 2018-11-18T12:33:46+10:00
+id: "akutni"
 icon: "/images/icons/akutni.jpg"
 show: false
 weight: 9
-short_description: "Každý den držíme volnou kapacitu pro akutní případy, které můžeme ošetřit ještě dnes, nebo následující den. "
 ---
 
 Každý den držíme volnou kapacitu pro akutní případy, které můžeme ošetřit ještě dnes, nebo následující den. 

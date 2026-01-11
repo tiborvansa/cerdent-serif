@@ -10,4 +10,7 @@ intro_image_hide_on_mobile: true
 .
 # Naše služby
 
-Stomatologie je nádherný, rychle se rozvíjející obor. Stále se vzděláváme a snažíme se zdokonalovat v tom, co nás baví, a co je nám nejbližší. Pro výkony, které v naší ordinaci neprovádíme, Vám rádi doporučíme osvědčené specialisty.
+Nabízíme komplexní stomatologickou péči pro celou rodinu.
+Pracujeme s moderními materiály a neustále se vzděláváme, abychom Vám pomohli udržet Váš vlastní chrup co nejdéle. To je z dlouhodobého hlediska ideální nejen pro Vaše zdraví, ale i Vaši peněženku.
+
+V případě implantátů či jiných specializovaných výkonů, které v naší ordinaci neprovádíme, Vám rádi doporučíme ověřené odborníky.

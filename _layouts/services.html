@@ -18,19 +18,35 @@ bodyClass: "page-services"
   </div>
 </div>
 
+
 {% assign visible_services = site.services | where_exp: "s", "s.show == true" %}
 {% for service in visible_services %}
-  <section id="{{ service.slug | default: service.title | slugify }}">
-    <div class="container  ">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-8">
-        <div class="service service-single">
-          <h1 class="title">{{service.title}}</h1>
-          <div class="content text-body">{{service.content}}
-        </div>
-        </div>
+  {% assign is_grey = forloop.index0 | modulo: 2 %}
+  <div class="strip{% if is_grey == 1 %} strip-grey{% endif %}" id="{{ service.slug | default: service.id | slugify }}">
+    <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+      <div class="row align-items-center">
+        {% if is_grey == 1 %}
+          <div class="col-12 col-lg-6 order-2 order-lg-1">
+            <h2>{{ service.title }}</h2>
+            <div class="content text-body">{{ service.content }}</div>
+          </div>
+          <div class="col-12 col-lg-6 order-1 order-lg-2 text-center">
+            {% if service.image %}
+              <img src="{{ service.image | relative_url }}" alt="{{ service.title }} logo" class="img-fluid" style="max-width: 100%; height: auto;" />
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="col-12 col-lg-6 order-1 order-lg-1 text-center">
+            {% if service.image %}
+              <img src="{{ service.image | relative_url }}" alt="{{ service.title }} logo" class="img-fluid" style="max-width: 100%; height: auto;" />
+            {% endif %}
+          </div>
+          <div class="col-12 col-lg-6 order-2 order-lg-2">
+            <h2>{{ service.title }}</h2>
+            <div class="content text-body">{{ service.content }}</div>
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
-  </section>
 {% endfor %}

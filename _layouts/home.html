@@ -24,17 +24,17 @@ bodyClass: "page-home"
 
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% assign visible_services = site.services | where: "show", true %}
-      {% for service in visible_services limit: limit %}
+    <div class="row justify-content-center">      
+      {% assign visible_services = site.data.home_page_icons | where: "show", true %}
+      {% for service in visible_services %}
       <div class="col-12 col-md-6 col-lg-6 mb-2">
         <div class="feature">
           {% if service.icon %}
           <div class="feature-image"><img alt="{{ service.title }} logo" src="{{ service.icon | relative_url }}" width="120" height="120" /></div>
           {% endif %}
+          <a href="{{ service.url | relative_url}}">
           <h2 class="feature-title">{{ service.title }}</h2>
+          </a>
           <div class="feature-content">{{ service.short_description }}</div>
         </div>
       </div>
