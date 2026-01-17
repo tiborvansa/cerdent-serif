@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: true
 show_call_box: true
 new_patients: true
 show_team: false
-show_ordinace: false
+show_ordinace: true
 ---
 
 # MDDr. Hana Vansová
