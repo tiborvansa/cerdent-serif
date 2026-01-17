@@ -8,20 +8,29 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  
   .feature-image {
     flex: 0 0 auto;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
-    text-align: center;
+    
+    // SVG icon styling - matches link color
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: invert(18%) sepia(84%) saturate(4791%) hue-rotate(352deg) brightness(91%) contrast(100%);
+    }
   }
-  img {
-    width: 100%;
-    height: auto;
-  }
+  
   .feature-title {
+    color: $link-color;
   }
+  
   .feature-content {
     margin-bottom: 0;
     margin-top: auto;

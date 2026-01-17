@@ -2,7 +2,7 @@
   {
     "title": "Rodinná ordinace",
     "show": true,
-    "icon": "/images/icons/rodina_icon.jpg",
+    "icon": "/images/icons/rodina_icon.svg",
     "url": "/services/#rodina",
     "weight": 1,
     "short_description": "Ošetřujeme celou rodinu. Do péče přijímáme děti od prvního zoubku."
@@ -10,7 +10,7 @@
   {
     "title": "Dentální hygiena",
     "show": true,
-    "icon": "images/icons/hygiena_icon.jpg",
+    "icon": "images/icons/hygiena_icon.svg",
     "url": "/services/#hygiena",
     "short_description": "Dentální hygiena je klíčová pro prevenci a udržení zdravých zubů." ,
     "weight": 2
@@ -18,7 +18,7 @@
   {
     "title": "Ošetření kazů",
     "show": true,
-    "icon": "images/icons/sluzby_icon.jpg",
+    "icon": "images/icons/sluzby_icon.svg",
     "url": "/services",
     "short_description": "Poskytujeme kvalitní ošetření zubních kazů s důrazem na komfort pacienta.",
     "weight": 3
@@ -26,7 +26,7 @@
   {
     "title": "Estetická stomatologie",
     "show": true,
-    "icon": "images/icons/beleni_icon.jpg",
+    "icon": "images/icons/beleni_icon.svg",
     "url": "/services/#beleni",
     "short_description": "Zaměřujeme se na krásu vašeho úsměvu pomocí moderních estetických postupů.",
     "weight": 4

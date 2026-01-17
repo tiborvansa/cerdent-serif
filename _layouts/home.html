@@ -30,7 +30,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 mb-2">
         <div class="feature">
           {% if service.icon %}
-          <div class="feature-image"><img alt="{{ service.title }} logo" src="{{ service.icon | relative_url }}" width="120" height="120" /></div>
+          <div class="feature-image"><img alt="{{ service.title }} logo" src="{{ service.icon | relative_url }}" /></div>
           {% endif %}
           <a href="{{ service.url | relative_url}}">
           <h2 class="feature-title">{{ service.title }}</h2>
