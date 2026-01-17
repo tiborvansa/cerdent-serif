@@ -1,7 +1,7 @@
 ---
-title: Ceník
+title: Ceník - Zubní ordinace Cerdent
 layout: page
-description: About
+description: Cenový přehled stomatologických služeb v ordinaci Cerdent. Transparentní ceny za dentální hygienu, ošetření kazů, protetiku a další služby.
 bodyClass: page-about
 ---
 
