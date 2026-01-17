@@ -1,0 +1,122 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "@id": "{{ site.url }}{{ site.baseurl }}/#organization",
+  "name": "Cerdent s.r.o.",
+  "alternateName": "Zubní ordinace Cerdent",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "logo": "{{ site.url }}{{ site.baseurl }}/images/logo/logo.png",
+  "image": "{{ site.url }}{{ site.baseurl }}/images/logo/logo.png",
+  "description": "Zubní ordinace v Praze-Radotíně poskytující komplexní stomatologickou péči pro celou rodinu. Vedoucí lékařka MDDr. Hana Vansová.",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Matějovského 1650/9",
+    "addressLocality": "Praha-Radotín",
+    "postalCode": "153 00",
+    "addressCountry": "CZ"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "49.98506",
+    "longitude": "14.36506"
+  },
+  "telephone": "{{ site.data.contact.phone }}",
+  "email": "{{ site.data.contact.email }}",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "08:00",
+      "closes": "14:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Tuesday",
+      "opens": "14:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Wednesday",
+      "opens": "08:00",
+      "closes": "16:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Thursday",
+      "opens": "08:00",
+      "closes": "14:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Friday",
+      "opens": "08:00",
+      "closes": "14:00"
+    }
+  ],
+  "medicalSpecialty": [
+    "Dentistry",
+    "Preventive Dentistry",
+    "Pediatric Dentistry",
+    "Cosmetic Dentistry"
+  ],
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "Dentální hygiena"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Ošetření kazů"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Dětská stomatologie"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Estetická stomatologie"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Protetika"
+    }
+  ],
+  "employee": {
+    "@type": "Person",
+    "name": "MDDr. Hana Vansová",
+    "jobTitle": "Vedoucí zubní lékařka",
+    "description": "Zubní lékařka se zaměřením na záchovnou a dětskou stomatologii"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Stomatologické služby",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Rodinná ordinace",
+          "description": "Ošetřujeme celou rodinu. Do péče přijímáme děti od prvního zoubku."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dentální hygiena",
+          "description": "Dentální hygiena je klíčová pro prevenci a udržení zdravých zubů."
+        }
+      }
+    ]
+  },
+  "paymentAccepted": "Cash, Insurance",
+  "currenciesAccepted": "CZK",
+  "areaServed": {
+    "@type": "City",
+    "name": "Praha"
+  }
+}
+</script>
