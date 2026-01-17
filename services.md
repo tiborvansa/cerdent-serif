@@ -1,7 +1,7 @@
 ---
-title: Services
+title: "Služby - Zubní ordinace Cerdent"
 layout: services
-description: Services
+description: "Komplexní stomatologická péče pro celou rodinu v Praze-Radotíně. Dentální hygiena, ošetření kazů, dětská stomatologie, estetická stomatologie."
 intro_image: "images/illustrations/services.png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
