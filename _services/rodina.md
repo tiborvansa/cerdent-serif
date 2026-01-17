@@ -7,4 +7,5 @@ show: true
 weight: 1
 ---
 
-Jako rodinná zubařka nabízím péči pro děti i dospělé na jednom místě, dlouhodobě a s důrazem na vzájemnou důvěru. Znám své pacienty v průběhu let, rozumím jejich potřebám a mohu tak lépe předcházet problémům, ne je jen řešit. Pro rodiče je to pohodlí a jistota, pro děti klidné prostředí bez strachu – a pro celou rodinu zdravý úsměv, o který pečujeme společně.
+Jako zubní lékařka se zaměřuji na péči o celé rodiny – od prvního dětského zoubku až po ošetření dospělých a seniorských pacientů, včetně zhotovení celkových náhrad. Základem mé práce je empatie, klidný přístup a vzájemná důvěra mezi lékařem a pacientem. Věřím, že kvalitní stomatologická péče stojí na dlouhodobé spolupráci, otevřené komunikaci a respektu k individuálním potřebám každého pacienta. Důraz kladu především na prevenci a včasné, šetrné řešení problémů, aby bylo možné zachovat vlastní zuby co nejdéle.
+
