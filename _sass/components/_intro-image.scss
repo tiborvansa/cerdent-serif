@@ -1,32 +1,68 @@
+// Base intro image styles
 .intro-image {
   width: 100%;
   height: auto;
   margin-top: -40px;
 }
+
+// Absolute positioned images for hero sections
 .intro-image-absolute {
   max-width: none;
-
   padding: 0;
   margin-bottom: 30px;
-  @include media-breakpoint-up(sm) {
-  }
+  
+  // Hide on mobile
+  display: none;
+  
   @include media-breakpoint-up(md) {
+    display: block;
     position: absolute;
-    bottom: -50px;
     left: -50px;
     width: 700px;
   }
+  
   @include media-breakpoint-up(lg) {
-    bottom: -60px;
     left: -60px;
     width: 800px;
   }
+  
   @include media-breakpoint-up(xl) {
-    bottom: -80px;
     left: -70px;
     width: 850px;
   }
 }
+
+// Home page specific positioning - more space for content with xdent button
+.page-home .intro-image-absolute {
+  @include media-breakpoint-up(md) {
+    bottom: -80px;
+  }
+  
+  @include media-breakpoint-up(lg) {
+    bottom: -100px;
+  }
+  
+  @include media-breakpoint-up(xl) {
+    bottom: -150px;
+  }
+}
+
+// Services page specific positioning - less space above image
+.page-services .intro-image-absolute {
+  @include media-breakpoint-up(md) {
+    bottom: 0;
+  }
+  
+  @include media-breakpoint-up(lg) {
+    bottom: -20px;
+  }
+  
+  @include media-breakpoint-up(xl) {
+    bottom: -40px;
+  }
+}
+
+// Legacy class for hiding on mobile (now handled by intro-image-absolute)
 .intro-image-hide-mobile {
   display: none;
   @include media-breakpoint-up(md) {
