@@ -1,6 +1,6 @@
 ---
 title: "Blanka Jansová"
-image: "images/team/blanka-hygienistka.webp"
+image: "images/team/druha_zubarka.jpg"
 jobtitle: "Dentální hygienistka"
 promoted: true
 weight: 3
