@@ -1,12 +1,12 @@
 ---
-title: Team
+title: "Náš tým - MDDr. Hana Vansová"
 layout: teams
-description: Team
+description: "MDDr. Hana Vansová a tým zubní ordinace Cerdent v Praze-Radotíně. Kvalitní zubní péče s lidským přístupem."
 permalink: "/team/"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Náš tým
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+Profesionální péče v čele s MDDr. Hanou Vansovou.
