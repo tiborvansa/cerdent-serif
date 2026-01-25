@@ -48,7 +48,7 @@
       }
 
       .phone-number {
-        font-size: 42px;
+        font-size: 1.7rem;
         font-weight: 700;
         color: #333;
         text-decoration: none;
@@ -63,14 +63,16 @@
   .call-box-bottom {
     width: 100%;
     flex: 0 0 auto;
-    padding: 5px;
+    padding: 20px 5px 5px 5px;
     border-top: 1px solid darken($white-offset, 5%);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     @include media-breakpoint-up(sm) {
       border: none;
+      padding: 5px;
     }
 
     .button {
@@ -87,8 +89,16 @@
   }
 
   .call-email {
+    font-size: 1.7rem;
+    font-weight: bold;
+    
     a {
       color: $black;
+      text-decoration: none;
+      
+      &:hover {
+        color: #666;
+      }
     }
   }
 
