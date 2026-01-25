@@ -7,7 +7,11 @@ bodyClass: "page-home"
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">        
-        {{ content }}
+        <div class="d-flex align-items-center gap-3 d-md-block">
+          <img alt="Cerdent logo" class="logo-mobile intro-logo d-md-none" src="{{ '/images/logo/logo-h1-mobile.svg' | relative_url }}" />
+          <h1 class="intro-title">MDDr. Hana Vansová</h1>
+        </div>
+        <p>Kvalitní zubní péče s lidským přístupem. Dobře dopravně dostupná v Praze - Radotíně.</p>
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
         {% endif %}

@@ -11,6 +11,3 @@ show_team: false
 show_ordinace: true
 ---
 
-# MDDr. Hana Vansová
-
-Kvalitní zubní péče s lidským přístupem. Dobře dopravně dostupná v Praze - Radotíně. 
