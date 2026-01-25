@@ -22,6 +22,20 @@
       font-size: 50px;
     }
   }
+  .intro-title {
+    margin: 0;
+    @include media-breakpoint-up(md) {
+      margin: 0;
+    }
+  }
+  
+  // Reduce gap between logo and title on mobile
+  .d-flex.gap-3 {
+    gap: 12px !important;
+    @include media-breakpoint-up(md) {
+      gap: 30px !important;
+    }
+  }
   h2 {
     width: 80%;
     font-size: 1.2rem;
