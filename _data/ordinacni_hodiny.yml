@@ -38,4 +38,13 @@ hygienistky:
       streda: null
       ctvrtek: null
       patek: null
+ - jmeno: Marie Anna Soukupová DiS.
+    ordinacni_hodiny:
+      pondeli: null
+      utery: null
+      streda: null
+      ctvrtek:
+        - "8:00 - 12:00"
+        - "12:30 - 16:30"
+      patek: null
  
