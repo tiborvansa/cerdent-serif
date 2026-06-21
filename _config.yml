@@ -5,6 +5,7 @@ url: 'https://cerdent.cz'  # Update this with your actual domain
 
 xdent_online: false
 new_patients: false
+vacation: true
 
 logo:
   mobile: "images/logo/logo.png"
