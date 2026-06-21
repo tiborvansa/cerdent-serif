@@ -1,7 +1,7 @@
 baseurl: '/cerdent'
 permalink: pretty
 title: 'CerDent - MDDr. Hana Vansová'
-url: 'https://cerdent.cz'  # Update this with your actual domain
+url: 'https://www.cerdent.cz'  # Update this with your actual domain
 
 xdent_online: false
 new_patients: false
